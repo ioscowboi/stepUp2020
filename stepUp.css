@@ -1,0 +1,66 @@
+html {
+    display: block;
+  }
+  
+  body {
+  background: url('https://www.jetsetter.com/uploads/sites/7/2018/04/Rp54V1WI-1-1380x690.jpeg') fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  h1, h2, h3, h4 {
+  font-weight: 900;
+  }
+  
+  h1, h2, h3, p  {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h1 {
+    letter-spacing: 2px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-weight: 200;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 0px auto;
+    border: 8px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 5px 40px 40px 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .75 );
+  }
+  
+  #fancyText {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .paragraph {
+  font-size: 24px;
+  }
+  
+  .vid {
+  margin: 0 auto;
+  width: 100%;
+  }
+  
+  .vid iframe {
+  width: 100%;
+  }
+  
+  .enhancedText {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+  }
