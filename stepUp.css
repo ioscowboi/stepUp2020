@@ -60,7 +60,13 @@ html {
   }
   
   .enhancedText {
-  color: green;
-  font-weight: bold;
-  text-decoration: underline;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .charDaleImage {
+      color: green;
+      font-size: 40px;
+      text-decoration: underline;
   }
