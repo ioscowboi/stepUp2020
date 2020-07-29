@@ -1,0 +1,79 @@
+.container {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.bannerImage {
+    background: url("https://p0.pikist.com/photos/544/591/colorado-rocky-mountains-aspen-trees.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+}
+
+/* The element to apply the animation to */
+.theKeyFrame {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.column-42 {
+    width: 42%;
+    height: 375px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 40px 2%;
+    float: left;
+    padding: 15px;
+}
+
+.specialContainer {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.tabular {
+  background-color: skyblue;
+  display: table;
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+.myRow {
+  display: table-cell;
+  width: 50%;
+  border: 1px solid lightblue;
+  padding: 20px;
+}
+
+
+/* The animation code */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px; opacity:1;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;opacity:1;}
+    100% {background-color:red; left:0px; top:0px; opacity: 0;}
+}
+  
+/* Mobile Styles Yay!!! */
+@media screen and ( max-width: 780px ) {
+  .tabular, .myRow, .tableRow {
+    display: block;
+    color: white;
+    width: 100%;
+    border: none;
+  }
+}
+
+
+  
