@@ -55,6 +55,14 @@
   padding: 20px;
 }
 
+i, h1 {
+  color: brown;
+}
+
+p {
+  font-size: 1.25em;
+}
+
 
 /* The animation code */
 @keyframes example {
